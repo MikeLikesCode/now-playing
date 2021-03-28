@@ -1,0 +1,85 @@
+.button {
+  background-color: transparent;
+  border-radius: 2em;
+  border: 0.2em solid #1ecd97;
+  color: #1ecd97;
+  cursor: pointer;
+  font-size: 2.5vmin;
+  padding: 0.7em 1.5em;
+  text-transform: uppercase;
+  transition: all 0.25s ease;
+
+  justify-content: center;
+}
+
+.login {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  padding: 25px 100px;
+}
+
+.songInfo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+
+.songDesc {
+  display: flex;
+  align-items: center;
+}
+
+.songDesc img {
+  margin-right: 20px;
+}
+
+.songDetails {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.songDetails h1{
+  margin:0px;
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.songDetails h2{
+  margin:0px;
+  font-size: 1.5rem;
+  font-weight: 300;
+  color:#D8D8D8;
+}
+
+.songDetails h3{
+  margin:0px;
+  font-size: 1.5rem;
+  font-weight: 300;
+  color:#D8D8D8;
+}
+
+.progress {
+  display: flex;
+  align-items: center;
+  border: 0.1em solid #eee;
+  border-radius: 3px;
+  height: 1em;
+  width: 100%;
+  background-color: white;
+}
+
+.progress__bar {
+  background-color: #1db954;
+  height: 0.75em;
+}
